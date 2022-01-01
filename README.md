@@ -1,5 +1,5 @@
 # compact-repl
-This is a very bare-bones REPL enviroment for node.js that can fit in 355 bytes. This only has the most essential features of a REPL enviroment but I did add some shortcut commands.
+This is a very bare-bones REPL enviroment for node.js that can fit in 345 bytes. This only has the most essential features of a REPL enviroment but I did add some shortcut commands.
 
 ## commands/shortcuts
 **cls**/**clear**: clears the console<br/>**exit**: exits out of REPL
