@@ -11,7 +11,7 @@ process.stdout.write("> "),process.stdin.on("data",s=>{o=s.toString().slice(0,-1
 
 version that is compatible with windows
 ```js
-process.stdout.write("> "),process.stdin.on("data",e=>{o=e.toString().slice(0,-1),o=o.charCodeAt(o.length-1)<13?o.slice(0,-1):o,"exit"==o&&process.exit();try{void 0!=(0,eval)(o)&&console.log((0,eval)(o))}catch(o){console.log(o.toString().split("\n")[0])}"clear"!=o&&"cls"!=o||console.clear(),process.stdout.write("> ")});
+process.stdout.write("> "),process.stdin.on("data",e=>{o=e.toString().slice(0,-1),o=o.charCodeAt(o.length-1)<14?o.slice(0,-1):o,"exit"==o&&process.exit();try{void 0!=(0,eval)(o)&&console.log((0,eval)(o))}catch(o){console.log(o.toString().split("\n")[0])}"clear"!=o&&"cls"!=o||console.clear(),process.stdout.write("> ")});
 ```
 
 
